@@ -5,6 +5,8 @@
 body {
     margin: 0;
     font-family: gruppo, sans-serif;
+    background-color: black;
+    overflow: hidden;
     
 }
 
@@ -174,4 +176,36 @@ button:hover{
     left: 15%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+.not-avaiable{
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2rem;
+    z-index: 1000;
+    text-align: center;
+}
+
+@media all and (max-width:800px){
+    canvas{
+        visibility: hidden;
+    }
+    button{
+        font-size: 1.5rem;
+    }
+    .btn{
+        visibility: hidden;
+    }
+    #restart{
+        visibility: hidden;
+    }
+    .sound-container{
+        visibility: hidden;
+    }
+    .not-avaiable{
+        visibility: visible;
+    }
 }
