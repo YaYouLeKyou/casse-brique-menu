@@ -209,26 +209,4 @@ button:hover{
         visibility: visible;
     }
 }
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2){
-    canvas{
-        visibility: hidden;
-    }
-    button{
-        font-size: 1.5rem;
-    }
-    .btn{
-        visibility: hidden;
-    }
-    #restart{
-        visibility: hidden;
-    }
-    .sound-container{
-        visibility: hidden;
-    }
-    .not-avaiable{
-        visibility: visible;
-    }
-}
+
