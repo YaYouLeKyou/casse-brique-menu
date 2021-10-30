@@ -177,17 +177,7 @@ button:hover{
     top: 50%;
     transform: translate(-50%,-50%);
 }
-.not-avaiable{
-    visibility: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: white;
-    font-size: 2rem;
-    z-index: 1000;
-    text-align: center;
-}
+
 
 @media all and (max-width:800px){
     canvas{
@@ -206,7 +196,13 @@ button:hover{
         visibility: hidden;
     }
     .not-avaiable{
-        visibility: visible;
-        top: 20%;
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2rem;
+    z-index: 1000;
+    text-align: center;
 }
+
