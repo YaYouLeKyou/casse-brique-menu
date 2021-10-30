@@ -207,6 +207,6 @@ button:hover{
     }
     .not-avaiable{
         visibility: visible;
+        top: 20%;
     }
 }
-
